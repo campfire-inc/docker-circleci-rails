@@ -7,3 +7,4 @@ RUN sudo npm install -g yarn
 RUN curl --location --silent https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-${PHANTOMJS_VERSION}-linux-x86_64.tar.bz2 | sudo tar xj -C /usr --strip-components=1
 RUN sudo apt-get install -y fonts-migmix
 RUN sudo npm install -g jshint
+RUN sudo gem install bundler --no-rdoc --no-ri
