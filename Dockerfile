@@ -1,4 +1,4 @@
-FROM circleci/ruby:2.5.1-node
+FROM circleci/ruby:2.5.1-node-browsers
 MAINTAINER Atsushi Nagase<ngs@hiinc.jp>
 
 ENV PHANTOMJS_VERSION 2.1.1
