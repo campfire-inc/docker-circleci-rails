@@ -8,4 +8,4 @@ RUN curl --location --silent https://bitbucket.org/ariya/phantomjs/downloads/pha
 RUN sudo apt-get install -y fonts-migmix
 RUN sudo npm install -g jshint
 RUN sudo gem update --system 2.7.4 # https://git.io/vAB1b
-RUN sudo gem install bundler --no-rdoc --no-ri
+RUN sudo gem install bundler --no-rdoc --no-ri --force
