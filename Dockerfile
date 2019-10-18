@@ -1,4 +1,4 @@
-FROM circleci/ruby:2.6.3-node-browsers
+FROM circleci/ruby:2.6.3-node-browsers-legacy
 LABEL maintainer="CAMPFIRE, Inc.<tech@camp-fire.jp>"
 
 ENV PHANTOMJS_VERSION 2.1.1
