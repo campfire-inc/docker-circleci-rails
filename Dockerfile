@@ -1,5 +1,5 @@
 FROM circleci/ruby:2.6.3-node-browsers
-LABEL maintainer="Atsushi Nagase<ngs@hiinc.jp>"
+LABEL maintainer="CAMPFIRE<tech@camp-fire.jp>"
 
 ENV PHANTOMJS_VERSION 2.1.1
 ENV PATH $HOME/.local/bin:$PATH
